@@ -4,20 +4,36 @@
             <h2>Message Box</h2>
             <p>Leave an anonymous message, or pick up a few to see what people are dropping off.</p>
             <div id="usrOptions">
-                <input type="text" id="inboundMessage_TextBox"/>
-                <button type="Submit" id="submitMessage_Btn">Leave my message!</button>
+                <input type="text" id="inboundMessage_TextBox" v-model="post"/>
+                <button type="Submit" id="submitMessage_Btn" @click="addPost">Leave my message!</button>
             </div>
         </div>
         <div class="boxContainer">
             <ul>
-                <li class="usrPost">
-                    <p>UsrName</p>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Praesentium similique sunt aliquam magnam nemo quibusdam incidunt dolores autem quos ut consectetur harum maiores quo earum alias iste, cupiditate quisquam aspernatur?</p>
+                <li class="usrPost" v-for="item in  this.posts" :key="item">
+                    {{item}}
                 </li>
             </ul>
         </div>
     </div>
 </template>
+
+<script>
+export default {
+    data() {
+        return {
+            post: "",
+            posts : [],
+        }
+    },
+    methods: {
+        addPost() {
+            this. posts.push(this.post);
+        }
+    }
+}
+</script>
+
 <style>
 ul {
     padding: 0px 5px 0px 5px;
@@ -46,3 +62,4 @@ li{
 }
 
 </style>
+
