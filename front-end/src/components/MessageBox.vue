@@ -4,7 +4,7 @@
             <h2>Message Box</h2>
             <p>Leave an anonymous message, or pick up a few to see what people are dropping off.</p>
             <div id="usrOptions">
-                <input type="text" id="inboundMessage_TextBox" v-model="post"/>
+                <input type="text" id="inboundMessage_TextBox" v-model="post" @keyup.enter="addPost" placeholder="Type your message here!"/>
                 <button type="Submit" id="submitMessage_Btn" @click="addPost">Leave my message!</button>
             </div>
         </div>
@@ -13,6 +13,7 @@
                 <li class="usrPost" v-for="item in  this.posts" :key="item">
                     {{item}}
                 </li>
+                <li v-if="this.posts.length === 0">There are no messages right now. Be the first to post!</li>
             </ul>
         </div>
     </div>
@@ -28,7 +29,8 @@ export default {
     },
     methods: {
         addPost() {
-            this. posts.push(this.post);
+            this.posts.push(this.post);
+            this.post = "";
         }
     }
 }
