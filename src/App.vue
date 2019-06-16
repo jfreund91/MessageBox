@@ -1,17 +1,16 @@
 <template>
   <div id="app">
-    <img alt="Vue logo" src="./assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
+    <MessageBox msg="We're not here right now. Leave a note!"/>
   </div>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import MessageBox from './components/MessageBox.vue'
 
 export default {
   name: 'app',
   components: {
-    HelloWorld
+    MessageBox
   }
 }
 </script>
@@ -25,4 +24,8 @@ export default {
   color: #2c3e50;
   margin-top: 60px;
 }
+body {
+  background: #2c3e50;
+}
+
 </style>
