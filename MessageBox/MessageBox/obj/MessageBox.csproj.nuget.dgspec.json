@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Jake\\Projects\\MessageBox\\MessageBox\\MessageBox.csproj": {}
+    "C:\\Users\\Jake\\Projects\\message-box\\MessageBox\\MessageBox\\MessageBox.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Jake\\Projects\\MessageBox\\MessageBox\\MessageBox.csproj": {
+    "C:\\Users\\Jake\\Projects\\message-box\\MessageBox\\MessageBox\\MessageBox.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Jake\\Projects\\MessageBox\\MessageBox\\MessageBox.csproj",
+        "projectUniqueName": "C:\\Users\\Jake\\Projects\\message-box\\MessageBox\\MessageBox\\MessageBox.csproj",
         "projectName": "MessageBox",
-        "projectPath": "C:\\Users\\Jake\\Projects\\MessageBox\\MessageBox\\MessageBox.csproj",
+        "projectPath": "C:\\Users\\Jake\\Projects\\message-box\\MessageBox\\MessageBox\\MessageBox.csproj",
         "packagesPath": "C:\\Users\\Jake\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Jake\\Projects\\MessageBox\\MessageBox\\obj\\",
+        "outputPath": "C:\\Users\\Jake\\Projects\\message-box\\MessageBox\\MessageBox\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
