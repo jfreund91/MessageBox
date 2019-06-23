@@ -25,7 +25,7 @@ namespace MessageBox.Models
         /// <summary>
         /// The date the post was made.
         /// </summary>
-        public DateTime PostDate { get { return this._postDate; } }
+        public DateTime PostDate { get; set; }
 
     }
 }

@@ -6,7 +6,7 @@ using MessageBox.Models;
 
 namespace MessageBox.DAL
 {
-    interface IMessageWriter
+    public interface IMessageWriter
     {
         void SaveMessage(Message message);
 

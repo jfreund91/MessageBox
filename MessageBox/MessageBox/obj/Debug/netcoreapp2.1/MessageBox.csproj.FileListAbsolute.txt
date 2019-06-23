@@ -1,0 +1,13 @@
+C:\Users\Jake\Projects\MessageBox\MessageBox\MessageBox\bin\Debug\netcoreapp2.1\MessageBox.deps.json
+C:\Users\Jake\Projects\MessageBox\MessageBox\MessageBox\bin\Debug\netcoreapp2.1\MessageBox.runtimeconfig.json
+C:\Users\Jake\Projects\MessageBox\MessageBox\MessageBox\bin\Debug\netcoreapp2.1\MessageBox.runtimeconfig.dev.json
+C:\Users\Jake\Projects\MessageBox\MessageBox\MessageBox\bin\Debug\netcoreapp2.1\MessageBox.dll
+C:\Users\Jake\Projects\MessageBox\MessageBox\MessageBox\obj\Debug\netcoreapp2.1\MessageBox.csproj.CoreCompileInputs.cache
+C:\Users\Jake\Projects\MessageBox\MessageBox\MessageBox\obj\Debug\netcoreapp2.1\MessageBox.RazorAssemblyInfo.cache
+C:\Users\Jake\Projects\MessageBox\MessageBox\MessageBox\obj\Debug\netcoreapp2.1\MessageBox.RazorAssemblyInfo.cs
+C:\Users\Jake\Projects\MessageBox\MessageBox\MessageBox\obj\Debug\netcoreapp2.1\MessageBox.AssemblyInfoInputs.cache
+C:\Users\Jake\Projects\MessageBox\MessageBox\MessageBox\obj\Debug\netcoreapp2.1\MessageBox.AssemblyInfo.cs
+C:\Users\Jake\Projects\MessageBox\MessageBox\MessageBox\obj\Debug\netcoreapp2.1\MessageBox.RazorTargetAssemblyInfo.cache
+C:\Users\Jake\Projects\MessageBox\MessageBox\MessageBox\bin\Debug\netcoreapp2.1\MessageBox.pdb
+C:\Users\Jake\Projects\MessageBox\MessageBox\MessageBox\obj\Debug\netcoreapp2.1\MessageBox.dll
+C:\Users\Jake\Projects\MessageBox\MessageBox\MessageBox\obj\Debug\netcoreapp2.1\MessageBox.pdb
